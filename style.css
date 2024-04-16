@@ -1,0 +1,177 @@
+ * {
+    margin: 0;
+    padding: 0;
+}
+
+
+.cabecalho {
+    background-image: radial-gradient(#42332B,#602B11);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.cabecalho-imagem{
+    width: 8%;
+}
+
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 20px;
+}
+
+.escola-imagem{
+    width: 30%;
+}
+
+.escola{
+    background-image: linear-gradient(#48131A,#D55E6E);
+    display: flex;
+    text-align: center;
+    justify-content:space-around;
+    padding: 20px 0;
+}
+
+.escola-div-conteudo{
+    width: 40%;
+    display: block;
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.escola-titulo{
+    color:white;
+}
+
+.escola-linha-um{
+    padding: 20px 0;
+    color: #FAFF00;
+}
+
+.servicos {
+    background-image: linear-gradient(#35342C,#625C38);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.servico-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Garante que o contêiner ocupe a largura total e force a quebra de linha entre os itens */
+    margin-bottom: 20px; /* Espaço entre os pares de itens, ajuste conforme necessário */
+}
+
+.servico1-imagem{
+    width: 15%;
+    padding: 0px 20px;
+}
+
+.servico1-div{
+    width: 25%;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.servico1-texto2{
+    padding: 20px 0 0 0;
+}
+
+.servico2-imagem{
+    width: 15%;
+    padding: 0px 20px;
+}
+
+.servico2-div{
+    width: 25%;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.servico2-texto2{
+    padding: 20px 0 0 0;
+}
+
+.preco-div{
+    text-align: center;
+    padding: 16px 0;
+}
+
+.matematica-imagem{
+    width: 40%;
+}
+
+.matematica-texto{
+    text-align: center;
+}
+
+.quimica-imagem{
+    width: 40%;
+}
+
+.quimica-texto{
+    text-align: center;
+}
+
+.fisica-imagem{
+    width: 40%;
+}
+
+.fisica-texto{
+    text-align: center;
+}
+
+.idioma-imagem{
+    width: 40%;
+}
+
+.idioma-texto{
+    text-align: center;
+}
+
+.item-todos{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    background: linear-gradient(to right, #c9f9af 0%, #f9a9d1 100%);
+}
+
+.professor-icone {
+    width: 24px; /* já definido */
+    vertical-align: middle; /* alinha verticalmente com o texto */
+}
+
+a {
+    display: flex; /* usa flexbox para alinhar o ícone e o texto */
+    align-items: center; /* centraliza verticalmente o ícone e o texto */
+    justify-content: center; /* centraliza horizontalmente dentro do link */
+    text-decoration: none; /* remove sublinhado do link */
+    color: inherit; /* herda a cor de texto do elemento pai */
+}
+
+.contato-texto {
+    padding-left: 8px; /* espaço entre o ícone e o texto */
+}
+
+.rodape{
+    background-color: black;
+    text-align: center;
+}
+
+.rodape-imagem{
+    height: 40px;
+    padding: 12px 0 0;
+}
+
+.texto-rodape{
+    color: white;
+    font-size: 12px;
+}
